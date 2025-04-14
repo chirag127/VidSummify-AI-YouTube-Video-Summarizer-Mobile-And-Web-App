@@ -1,0 +1,37 @@
+{
+  "name": "ytsummarizer-react-native-expo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^19.0.1",
+    "@react-navigation/bottom-tabs": "^7.3.10",
+    "@react-navigation/native": "^7.1.6",
+    "@react-navigation/stack": "^7.2.10",
+    "@supabase/supabase-js": "^2.49.4",
+    "expo": "~52.0.43",
+    "expo-clipboard": "^7.0.1",
+    "expo-linking": "^7.0.5",
+    "expo-speech": "^13.0.1",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-dom": "^19.1.0",
+    "react-native": "0.76.9",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-markdown-display": "^7.0.2",
+    "react-native-paper": "^5.13.1",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "^4.10.0",
+    "react-native-web": "^0.20.0",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
